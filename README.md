@@ -8,7 +8,7 @@ Add the following dependency to your `build.gradle.kts` file:
 
 ```kotlin
 dependencies {
-    implementation("ru.foura:errorhandling:1.0.0")
+    implementation("ru.code4a:error-handling:1.0.0")
 }
 ```
 
@@ -16,8 +16,8 @@ Or, if you are using Maven, add the following to your `pom.xml`:
 
 ```xml
 <dependency>
-    <groupId>ru.foura</groupId>
-    <artifactId>errorhandling</artifactId>
+    <groupId>ru.code4a</groupId>
+    <artifactId>error-handling</artifactId>
     <version>1.0.0</version>
 </dependency>
 ```
