@@ -68,6 +68,7 @@ repositories {
 }
 
 dependencies {
+  testImplementation(kotlin("test"))
 }
 
 jreleaser {
@@ -97,4 +98,8 @@ jreleaser {
       }
     }
   }
+}
+
+tasks.test {
+  useJUnitPlatform()
 }
