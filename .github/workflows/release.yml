@@ -3,6 +3,7 @@ on:
   push:
     tags:
       - v*
+      - '!v*-j8'
 jobs:
   publish:
     runs-on: ubuntu-latest
