@@ -41,6 +41,17 @@ publishing {
             id = "tikara"
             name = "Evgeniy Simonenko"
             email = "tiikara93@gmail.com"
+            organization.set("4A LLC")
+            roles.set(
+              listOf(
+                "Software Developer",
+                "Head of Development"
+              )
+            )
+          }
+          organization {
+            name = "4A LLC"
+            url = "https://4ait.ru"
           }
         }
         scm {
@@ -73,7 +84,7 @@ dependencies {
 
 jreleaser {
   project {
-    copyright.set("Company 4A")
+    copyright.set("4A LLC")
   }
   gitRootSearch.set(true)
   signing {
